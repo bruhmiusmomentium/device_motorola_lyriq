@@ -98,6 +98,9 @@ include device/mediatek/sepolicy_vndr/SEPolicy.mk
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
 
