@@ -99,5 +99,10 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
 
+# Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
 # Inherit the proprietary files
 include vendor/motorola/lyriq/BoardConfigVendor.mk
+
