@@ -54,3 +54,7 @@ BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 # Platform
 TARGET_BOARD_PLATFORM := mt6893
 BOARD_HAS_MTK_HARDWARE := true
+
+# Recovery
+TARGET_NO_RECOVERY := true
+BOARD_USES_RECOVERY_AS_BOOT := true
