@@ -35,6 +35,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a55
 TARGET_BOOTLOADER_BOARD_NAME := lyriq
 TARGET_NO_BOOTLOADER := true
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
+
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
 
