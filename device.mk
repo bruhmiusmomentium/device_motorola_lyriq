@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Properties
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure.recovery=0
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
