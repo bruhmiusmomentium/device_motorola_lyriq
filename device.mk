@@ -50,6 +50,12 @@ PRODUCT_PACKAGES += \
 # Properties
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure.recovery=0
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.2-mtkimpl \
+    android.hardware.boot@1.2-mtkimpl.recovery \
+    android.hardware.boot@1.2-service
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd \
