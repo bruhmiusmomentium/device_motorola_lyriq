@@ -61,6 +61,11 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.1-impl.custom
 
+# Fstab
+PRODUCT_PACKAGES += \
+    fstab.mt6893 \
+    fstab.mt6893.vendor_ramdisk
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \

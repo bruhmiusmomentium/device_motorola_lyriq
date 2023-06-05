@@ -1,0 +1,10 @@
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "fstab.mt6893",
+    src: "etc/fstab.mt6893",
+    vendor: true,
+    vendor_ramdisk_available: true
+}
