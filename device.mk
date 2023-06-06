@@ -31,11 +31,9 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Fstab
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6893:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.mt6893 \
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6893:$(TARGET_OUT_PRODUCT)/vendor_overlay/$(PLATFORM_VNDK_VERSION)/etc/fstab.mt6893 \
+PRODUCT_PACKAGES += \
+    fstab.mt6893 \
+    fstab.mt6893_ramdisk
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
