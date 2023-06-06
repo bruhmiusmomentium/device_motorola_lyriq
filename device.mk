@@ -61,6 +61,10 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.1-impl.custom
 
+# Init
+PRODUCT_PACKAGES += \
+    init.recovery.mt6893.rc
+
 # Fstab
 PRODUCT_PACKAGES += \
     fstab.mt6893 \

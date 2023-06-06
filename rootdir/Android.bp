@@ -8,3 +8,10 @@ prebuilt_etc {
     vendor: true,
     vendor_ramdisk_available: true
 }
+
+prebuilt_etc {
+    name: "init.recovery.mt6893.rc",
+    src: "etc/init.recovery.mt6893.rc",
+    sub_dir: "init",
+    recovery: true,
+}
