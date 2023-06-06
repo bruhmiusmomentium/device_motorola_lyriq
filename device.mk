@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6893_ramdisk \
     fstab.emmc_ramdisk
 
+# Init
+PRODUCT_PACKAGES += \
+    init.recovery.mt6893.rc
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
