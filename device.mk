@@ -53,7 +53,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure.recovery=0
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd \
-    android.hardware.fastboot@1.0-impl-mock
+    android.hardware.fastboot@1.1-impl.custom
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
