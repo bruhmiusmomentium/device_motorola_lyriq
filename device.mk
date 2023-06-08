@@ -52,7 +52,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd \
-    android.hardware.fastboot@1.0-impl-mock
+    android.hardware.fastboot@1.1-impl.custom
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
