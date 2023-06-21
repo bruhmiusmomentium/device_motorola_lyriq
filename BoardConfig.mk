@@ -86,6 +86,9 @@ $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-l
 # ODM is vendor/odm
 TARGET_COPY_OUT_ODM = vendor/odm
 
+# Vendor
+BUILD_WITHOUT_VENDOR := true
+
 # Userdata
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 TARGET_USERIMAGES_USE_F2FS := true
