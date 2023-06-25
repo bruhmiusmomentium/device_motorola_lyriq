@@ -13,6 +13,9 @@ import ${ro.vendor.rc}init.cgroup.rc
 #Moto mmi.rc
 import /vendor/etc/init/hw/init.mmi.rc
 
+#logger
+import /vendor/etc/init/init.logger.rc
+
 # init.modem.rc must be the LAST rc file because vold.post_fs_data_done is set in it
 import ${ro.vendor.rc}init.modem.rc
 # *** DO NOT import the new rc file after this line ***
