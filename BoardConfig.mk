@@ -3,6 +3,7 @@
 #
 
 DEVICE_PATH := device/motorola/lyriq
+PREBUILT_VENDOR_PATH := vendor/motorola/lyriq-prebuilt
 
 # A/B
 AB_OTA_UPDATER := true
@@ -89,8 +90,8 @@ $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-l
 # ODM is vendor/odm
 TARGET_COPY_OUT_ODM = vendor/odm
 
-# Vendor
-BUILD_WITHOUT_VENDOR := true
+# Prebuilt vendor image
+BOARD_PREBUILT_VENDORIMAGE := $(PREBUILT_VENDOR_PATH)/vendor.img
 
 # Userdata
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
