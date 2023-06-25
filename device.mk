@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.recovery.mt6893.rc \
+    init.mt6893.rc \
     init.logger.rc
 
 # Boot animation
