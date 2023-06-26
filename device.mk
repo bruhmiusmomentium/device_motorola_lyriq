@@ -5,6 +5,9 @@
 # API level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 30 31
+
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
