@@ -4,6 +4,10 @@
 
 DEVICE_PATH := device/motorola/lyriq
 
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := lyriq
+
 # A/B
 AB_OTA_UPDATER := true
 
