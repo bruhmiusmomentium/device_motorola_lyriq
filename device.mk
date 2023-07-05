@@ -38,6 +38,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 PRODUCT_PACKAGES += \
     checkpoint_gc \
+    tune2fs \
     otapreopt_script
 
 # Boot control
