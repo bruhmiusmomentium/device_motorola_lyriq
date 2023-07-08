@@ -4,6 +4,18 @@
 
 DEVICE_PATH := device/motorola/lyriq
 
+# A/B
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    vendor_boot \
+    system \
+    system_ext \
+    product \
+    vendor \
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
