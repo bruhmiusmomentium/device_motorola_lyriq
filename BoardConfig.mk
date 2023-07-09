@@ -6,3 +6,4 @@ DEVICE_PATH := device/motorola/lyriq
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lyriq
+TARGET_NO_BOOTLOADER := true
