@@ -3,7 +3,7 @@
 #
 
 DEVICE_PATH := device/motorola/lyriq
-
+PREBUILT_VENDOR_PATH := vendor/motorola/lyriq-prebuilt
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lyriq
@@ -98,6 +98,9 @@ $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-l
 # Userdata
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 TARGET_USERIMAGES_USE_F2FS := true
+
+# Prebuilt vendor
+BOARD_PREBUILT_VENDORIMAGE := $(PREBUILT_VENDOR_PATH)/vendor.img
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6893
