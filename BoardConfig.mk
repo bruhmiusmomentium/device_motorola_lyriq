@@ -16,13 +16,9 @@ AB_OTA_PARTITIONS += \
     dtbo \
     vendor_boot \
     system \
-    system_dlkm \
     system_ext \
     product \
     vendor \
-    vendor_dlkm \
-    odm \
-    odm_dlkm \
     vbmeta \
     vbmeta_system
 
@@ -85,13 +81,9 @@ BOARD_SUPER_PARTITION_SIZE := 9126805504
 BOARD_SUPER_PARTITION_GROUPS := motorola_dynamic_partitions
 BOARD_MOTOROLA_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system \
-    system_dlkm \
     system_ext \
-    product \
     vendor \
-    vendor_dlkm \
-    odm \
-    odm_dlkm
+    product
 
 BOARD_MOTOROLA_DYNAMIC_PARTITIONS_SIZE := 9122611200 # ( BOARD_SUPER_PARTITION_SIZE - 4194304) 4MiB overhead
 
