@@ -10,6 +10,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+# [DNM] disable updatable apex
+OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # API level
 PRODUCT_SHIPPING_API_LEVEL := 31
