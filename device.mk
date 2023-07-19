@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6893 \
     fstab.mt6893.vendor_ramdisk
 
+# Keystore
+PRODUCT_PACKAGES += \
+    android.system.keystore2
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
